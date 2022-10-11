@@ -18,6 +18,12 @@
     font-weight: 300
     font-size: 15px
 
+.car-bg-text-hidden
+    display: none
+
+.xs-active
+    display: none
+
 .hamburger
     display: none
 
@@ -46,7 +52,7 @@
     font-size: 12px
     line-height: 14px
 
-    span
+    .number
       font-weight: 400
       line-height: 40px
       font-size: 22px
@@ -62,7 +68,7 @@
     font-style: normal
     font-weight: 400
     font-size: 14px
-    transition: 0.6 all
+    color: #FFFFFF
     &:hover
         background: linear-gradient(0deg, #4CE2FF 0%, #1EACC7 100%)
 
@@ -168,7 +174,7 @@
     margin-bottom: 0px
 
 .mobile
-    height: 864px
+    min-height: 864px
     padding: 48px 0 80px 0
     background: url('../img/bg/mobile_bg.png') center (center / cover) no-repeat
     .row
@@ -327,7 +333,7 @@
 
 .foot
     padding: 11px 0 40px 0
-    height: 186px
+    min-height: 282px
     position: relative
     &-block
         margin: 0 auto

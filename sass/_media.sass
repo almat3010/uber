@@ -4,7 +4,7 @@
     .menu-item
         padding-right: 18px
     .subheader-contact
-        span
+        .number
             font-size: 16px
             line-height: 25px
     .promo
@@ -16,7 +16,7 @@
         &-item
             width: 300px
     .foot
-        height: 255px
+        min-height: 255px
         &-available
             position: static
             justify-content: center
@@ -61,6 +61,7 @@
         &-item
             width: 217px
             height: 268px
+
 @media (max-width: 767px)
     nav
         position: relative
@@ -108,3 +109,165 @@
         margin-top: 15px
     .menu-link
         font-size: 20px
+    .subheader
+        .hidden
+            display: none
+        &-contact
+            margin-top: 0
+        &-btn
+            margin-top: 5px
+        .xs-hidden
+            display: none
+        .xs-active
+            display: block
+            color: white
+            text-align: center
+        .col-sm-4
+            margin-left: 90px
+            margin-top: 7px
+    .promo
+        &-header
+            font-size: 34px
+        &-subheader
+            font-size: 20px
+        &-btn
+            width: 170px
+            height: 40px
+    .reasons
+        &-text
+            margin-left: 0rem
+            margin-top: 5px
+    .mobile
+        .row>*
+            width: 50%
+        &-item
+            width: 240px
+            &-title
+                font-size: 20px
+    .car-black
+        img
+            width: 562px
+            height: 397px
+            margin-top: 67px
+    .car-bg
+        height: 300px
+
+@media (max-width: 575px)
+    .subheader
+        height: 62px
+        &-logo
+            margin-top: 16px
+        &-text
+            display: none
+        .hidden
+            display: none
+        &-contact
+            margin-top: 0
+        &-btn
+            margin-top: 0
+            width: 110px
+            height: 22px
+            font-size: 10px
+            color: #FFFFFF
+        .col-sm-4
+            margin-left: 0
+            margin-top: -4px
+            padding-left: 36px
+            padding-top: 12px
+    .xs-hidden
+        display: none
+    .xs-active
+        font-size: 12px
+    .promo
+        min-height: 400px
+        padding-top: 101px
+        padding-bottom: 0
+        &-header
+            font-size: 30px
+        &-subheader
+            font-size: 20px
+        &-text
+            display: none
+        &-btn
+            margin-bottom: 73px
+    .reasons
+        padding-bottom: 0
+        .any-title
+            font-size: 16px
+            margin-top: 18px
+        &-text
+            font-size: 16px
+            margin-left: 17px
+            span
+                fontsize: 15px
+    .mobile
+        .any-title
+            font-size: 16px
+        .any-subheader
+            font-size: 14px
+        .row>*
+            width: 100%
+        &-item
+            width: 290px
+            height: 254px
+    .car-black
+        min-height: 322px
+        padding-top: 27px
+        img
+            top: 85px
+            width: 300px
+            height: 190px
+        .any-title
+            display: none
+        .any-subheader
+            display: none
+        .car-bg-text-hidden
+            display: block
+            font-weight: 300
+            font-size: 17px
+            color: white
+            margin-top: 285px
+            text-align: center
+    .car-bg
+        display: none
+    .require
+        padding-top: 27px
+        padding-bottom: 30px
+        .any-title
+            font-size: 16px
+        &-header
+            font-size: 16px
+            &-red
+                margin-top: 33px
+        &-list
+            margin-left: -5px
+            li
+                font-size: 14px
+                margin-bottom: 0
+        &-foot
+            font-size: 14px
+    .world
+        min-height: 360px
+        .any-title
+            font-size: 16px
+        .any-subheader
+            font-size: 14px
+        &-link
+            margin-top: 211px
+    .foot
+        &-link
+            margin-left: 8px
+            &:nth-child(1)
+                margin-left: 0
+            a
+                font-size: 14px
+        &-link1
+            a
+                font-size: 11px
+        &-lang
+            margin-top: 10px
+            a
+                font-size: 11px
+        &-links
+            justify-content: space-around
+            flex-wrap: wrap
